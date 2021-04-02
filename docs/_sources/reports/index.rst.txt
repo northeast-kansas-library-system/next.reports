@@ -1,0 +1,11 @@
+.. include:: /images.rst
+
+Contents of /reports/ folder
+============================
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :caption: This folder contains:
+
+   *

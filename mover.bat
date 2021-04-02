@@ -1,3 +1,3 @@
 @echo off
 
-xcopy ..\next.reports\build\html\* ..\next\docs /e /r /y
+xcopy ..\next.reports\build\html\* ..\next.reports\docs /e /r /y
