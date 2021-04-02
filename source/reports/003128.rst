@@ -6,7 +6,7 @@
 Running the report
 ------------------
 
-To run the report, click on Run and choose your library.
+Click on "Run" to run this report.  Enter your library as the circulating library.
 
 Description
 -----------
