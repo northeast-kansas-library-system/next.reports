@@ -1,0 +1,19 @@
+/* Override 800 pixel column width */
+.wy-nav-content {
+  max-width: 80%;
+}
+
+/* Override top left header color */
+.wy-side-nav-search {
+  background-color: #de621f !important;
+}
+
+/* Override navbar background color */
+.wy-nav-side {
+  background: ##75de1f !important;
+}
+
+/* Override table of contents font color */
+.wy-menu-vertical header, .wy-menu-vertical p.caption {
+  color: #f2c0a5 !important;
+}
