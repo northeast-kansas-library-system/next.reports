@@ -1,0 +1,31 @@
+.. include:: /images.rst
+
+3128
+====
+
+Running the report
+------------------
+
+Click on "Run" to run this report.  No parameters are needed.
+
+Description
+-----------
+
+This report generates a list of all bibliographic records with requests and then sorts them from greatest number of requests to lowest number of requests.
+
+Limitations
+-----------
+
+Because this report is built on bibliographic records, it cannot accurately represent details from item records such as item level item types, collection codes, or shelving locations.  Because of this, the item types, collection codes, and shelving locations in the report are based on the 942 fields from the bibliographic record.  This means that the item types on your items may be different from those listed in this report.
+
+Item replacement prices are also defined on the item level.  Therefore this report shows all of the replacement prices from all of the item records on the bibliographic record.  This means you may see multiple replacement prices for a title.
+
+Changes
+-------
+
+This report was changed on 2021.04.02.  The previous version of this report was written so that it gathered inaccurate item information.
+
+SQL
+---
+
+The SQL for this report can be found at this link `Report 803 <https://northeast-kansas-library-system.github.io/nextkansas.sql/R.000803.txt>`_
