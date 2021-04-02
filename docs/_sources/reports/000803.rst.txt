@@ -1,6 +1,6 @@
 .. include:: /images.rst
 
-3128
+803
 ====
 
 Running the report
