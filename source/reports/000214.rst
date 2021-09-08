@@ -1,0 +1,50 @@
+.. include:: /images.rst
+
+3128
+====
+
+
+Running the report
+------------------
+
+Find report 214 and click on "Run" to run this report.
+
+You will be asked to choose an item home library and which empty or problematic fields you're searching for.
+
+
+Description
+-----------
+
+If important fields are left blank or have *problematic* values entered, the way that Next Search Catalog handles and treats those items may cause problems for borrowers and for staff.  This report looks for for empty or problematic values in these item fields:
+
+- Item barcode
+- Permanent location
+  - blank locations or "temporary" locations
+- Item type
+  - blank item type or "(Unclassified)" item types
+- Collection code
+  - blank collection codes or "(Unclassified)" collection codes
+- Call number
+- Replacement price
+  - blank replacement prices or $0.00 replacement prices
+
+
+Options
+-------
+
+To get 
+
+
+
+
+SQL
+---
+
+The SQL for this report can be found at this link `Report 214 <https://northeast-kansas-library-system.github.io/nextkansas.sql/R.000214.sql>`_
+
+Dependencies
+^^^^^^^^^^^^
+
+This report depends on two authorised values sets:  ZBRAN and XS_NULLS
+
+These are custom authorised values sets created for Northeaset Kansas Library System.  All current NEKLS authorised valued can be found at this link `NEKLS authorised values table <https://northeast-kansas-library-system.github.io/nextkansas.sql/authorised_values.csv>`_
